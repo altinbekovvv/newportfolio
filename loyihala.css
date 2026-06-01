@@ -1,0 +1,65 @@
+body{
+    background:#0a0a0a;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+.portfolio{
+    width:90%;
+    margin:auto;
+}
+
+.title{
+    text-align:center;
+    color:#00ff66;
+    font-size:40px;
+    margin:30px 0;
+}
+
+.card{
+    display:flex;
+    align-items:center;
+    margin:15px 0;
+    padding:10px;
+    background:#111;
+    border:2px solid #00ff66;
+    border-radius:12px;
+    animation:pastga 0.8s ease;
+}
+
+.card:nth-child(even){
+    flex-direction:row-reverse;
+}
+
+.card img{
+    width:35%;
+    height:120px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card-content{
+    width:65%;
+    padding:20px;
+}
+
+.card-content h3{
+    font-size:26px;
+    color:#00ff66;
+    margin-bottom:8px;
+}
+
+.card-content p{
+    font-size:17px;
+}
+
+@keyframes pastga{
+    from{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}

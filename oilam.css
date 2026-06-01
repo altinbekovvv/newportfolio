@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:white;
+}
+
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#39ff14;
+}
+
+nav{
+    background:#1a1a1a;
+    padding:10px 20px;
+    border-radius:15px;
+    border:1px solid #39ff14;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.active{
+    background:#39ff14;
+    color:black;
+    padding:8px 15px;
+    border-radius:15px;
+}
+
+/* Sarlavha */
+.title{
+    text-align:center;
+    margin:50px 0;
+    font-size:48px;
+    color:#39ff14;
+}
+
+/* Oila bloklari */
+.family-box{
+    width:85%;
+    margin:40px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#151515;
+    border:2px solid #39ff14;
+    border-radius:20px;
+    padding:25px;
+}
+
+.text{
+    width:50%;
+}
+
+.text h2{
+    color:#39ff14;
+    margin-bottom:15px;
+    font-size:35px;
+}
+
+.text p{
+    font-size:22px;
+    line-height:35px;
+}
+
+.image img{
+    width:320px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    border:3px solid #39ff14;
+    box-shadow:0 0 15px #39ff14;
+}
