@@ -27,29 +27,50 @@ header{
 }
 
 nav ul{
-    display:flex;
-    list-style:none;
-    gap:30px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
 }
 
 nav ul li a{
-    text-decoration:none;
-    color:white;
-    font-size:18px;
-    transition:0.3s;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
 nav ul li a:hover{
-    color:#00ff00;
-    text-shadow:0 0 10px #00ff00;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00;
 }
 
-.title{
-    text-align:center;
-    color:#00ff66;
-    font-size:40px;
-    margin-top:150px;
-    margin-bottom:40px;
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#39ff14;
+}
+
+nav{
+    height: 60px;
+    background:#1a1a1a;
+    padding:10px 20px;
+    border-radius:15px;
+    border:1px solid #39ff14;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.active{
+    background:#39ff14;
+    color:black;
+    padding:8px 15px;
+    border-radius:15px;
 }
 
 .gridportfolio{
@@ -60,16 +81,16 @@ nav ul li a:hover{
     gap:30px;
 }
 
-.card{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    border:2px solid #00ff66;
-    border-radius:15px;
-    padding:20px;
-    background:#111;
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid #00ff66;
+    border-radius: 15px;
+    background: #111;
+    margin:
 }
-
 .card:nth-child(even){
     flex-direction:row-reverse;
 }

@@ -52,6 +52,33 @@ nav ul li a:hover{
 }
 
 
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#39ff14;
+}
+
+nav{
+    background:#1a1a1a;
+    padding:10px 20px;
+    border-radius:15px;
+    border:1px solid #39ff14;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.active{
+    background:#39ff14;
+    color:black;
+    padding:8px 15px;
+    border-radius:15px;
+}
+
 
 
 
