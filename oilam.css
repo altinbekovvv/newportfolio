@@ -29,6 +29,7 @@ header{
     color: #00ff66;
 }
 
+
 nav ul{
     display: flex;
     list-style: none;
@@ -78,7 +79,7 @@ nav a{
 /* Sarlavha */
 .title{
     text-align:center;
-    margin:50px 0;
+    margin-top: 80px;
     font-size:48px;
     color:#39ff14;
 }

@@ -32,6 +32,7 @@ header{
     color: #00ff66;
 }
 
+
 nav ul{
     display: flex;
     list-style: none;
@@ -49,7 +50,6 @@ nav ul li a:hover{
     color: #00ff00;
     text-shadow: 0 0 10px #00ff00;
 }
-
 
 
 
@@ -131,6 +131,7 @@ nav ul li a:hover{
 }
 
 .skill{
+    margin-top: 70px;
     width: 250px;
     background: #1a1a1a;
     padding: 30px;
@@ -144,6 +145,7 @@ nav ul li a:hover{
 }
 
 .skill h3{
+    margin-top: 40px;
     font-size: 30px;
     margin-bottom: 15px;
     color: #00ff66;
