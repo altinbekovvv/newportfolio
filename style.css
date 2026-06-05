@@ -14,7 +14,7 @@ body{
 /* NAVBAR */
 
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,7 +24,9 @@ header{
     align-items: center;
     background: rgba(0,0,0,0.7);
     backdrop-filter: blur(10px);
+    z-index: 10;
 }
+
 
 
 .logo h2{
@@ -81,7 +83,9 @@ nav a{
 
 
 
-
+.hero{
+    margin-top: 50px;
+}
 .btn{
     display:inline-block;
     padding:15px 40px;
@@ -99,7 +103,7 @@ nav a{
     transform: scale(1.05);
 }
 
-/* SECTION */.
+/* SECTION */
 
 .section{
     padding: 100px 10%;
@@ -126,7 +130,9 @@ nav a{
 
 .about img{
     width: 450px;
-    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
+    /* max-width: 100%; */
     border-radius: 20px;
 }
 
@@ -181,7 +187,9 @@ nav a{
 .skill p{
     line-height: 28px;
 }
-
+.contact{
+    margin-top: 100px;
+}
 
 /* FOOTER */
 

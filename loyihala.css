@@ -1,30 +1,39 @@
-body{
-    background:#0a0a0a;
-    color:white;
-    font-family:Arial,sans-serif;
-    margin:0;
-    padding:0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+body{
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
 
 header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    padding:20px 60px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background:rgba(0,0,0,0.7);
-    backdrop-filter:blur(10px);
-    z-index:1000;
-    box-sizing:border-box;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    z-index: 10;
 }
 
+
+
 .logo h2{
-    font-size:32px;
-    color:#00ff66;
+    font-size: 32px;
+    color: #00ff66;
 }
+
 
 nav ul{
     display: flex;
@@ -52,7 +61,6 @@ nav ul li a:hover{
 }
 
 nav{
-    height: 60px;
     background:#1a1a1a;
     padding:10px 20px;
     border-radius:15px;
@@ -65,6 +73,12 @@ nav a{
     margin:0 15px;
     font-weight:bold;
 }
+.title{
+    font-size: 32px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
 
 .active{
     background:#39ff14;
@@ -72,10 +86,13 @@ nav a{
     padding:8px 15px;
     border-radius:15px;
 }
+#portfolio{
+    margin-top: 50px;
+}
 
 .gridportfolio{
     width:90%;
-    margin:auto;
+    margin:30px auto;
     display:flex;
     flex-direction:column;
     gap:30px;
@@ -89,7 +106,6 @@ nav a{
     border: 2px solid #00ff66;
     border-radius: 15px;
     background: #111;
-    margin:
 }
 .card:nth-child(even){
     flex-direction:row-reverse;
